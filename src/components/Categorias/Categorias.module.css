@@ -1,0 +1,48 @@
+.container_categorias {
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 20px;
+}
+
+.container_botao {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.container_botao button {
+    width: 150px;
+    flex-grow: 1;
+    padding: 10px 5px;
+    background-color: #efefef;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    outline: 0;
+}
+.container_botao img {
+    width: 20px;
+    height: auto;
+}
+.container_botao p {
+    font-size: 15px;
+    font-weight: bold;
+}
+.container_botao button:hover { /* efeito hover */
+    background-color: #daa520;
+}
+
+.botao_on {
+    background-color: #daa520 !important;
+}
+
